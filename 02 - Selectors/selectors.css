@@ -1,0 +1,63 @@
+*
+{
+    font-family: Arial, sans-serif;
+    background-color:aliceblue;
+}
+h1
+{
+    color: crimson;
+}
+
+/* Class Selector */
+.highlight
+{
+    background-color:aquamarine;
+}
+
+/* ID Selector */
+#special
+{
+    color: blue;
+}
+
+/* Group Selector */
+h2,h3
+{
+    color: green;
+}
+
+/* Descendant Selector */
+.container p
+{
+    color: purple;
+}
+
+/* Child Selector*/
+.container > span
+{
+    color: orange;
+}
+
+/* Adjacent Sibling Selector */
+h3 + p
+{
+    font-weight: bold;
+}
+
+/* General Sibling Selector */
+
+h3 ~ p
+{
+    background-color: lightgray;
+}
+
+/* Attribute Selector */
+input[type = "password"]
+{
+    border: 2px solid red;
+}
+
+input[type="email"]
+{
+    border: 2px solid blue;
+}
