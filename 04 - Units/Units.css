@@ -1,0 +1,75 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+div
+{
+    margin: 15px 0;
+    padding: 10px;
+    background: #dfe6e9;
+}
+
+/* Absolute Units */
+
+.px-box
+{
+    width: 200px;
+}
+.cm-box
+{
+    width: 5cm;
+}
+.mm-box
+{
+    width: 30mm;
+}
+.inch-box
+{
+    width: 2in;
+}
+.px-box
+{
+    font-size: 20pt;   
+}
+
+/* Relative Units */
+
+.percent-box
+{
+    width: 80%;
+}
+.parent
+{
+    font-size: 20px;
+    background: #ffeaa7;
+}
+.em-box
+{
+    font-size: 2em;
+}
+.rem-box
+{
+    font-size: 2rem;
+}
+.vw-box
+{
+    width: 50vw;
+}
+.vh-box
+{
+    height: 20vh;
+}
+.vmin-box
+{
+    width: 20vmin;
+}
+.vman-box
+{
+    width: 20vmax;
+}
+.ch-box
+{
+    width: 30ch;
+}
