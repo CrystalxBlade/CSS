@@ -1,0 +1,56 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+p
+{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.named
+{
+    color: red;
+}
+
+.hex
+{
+    color:#3498db;
+}
+
+.rgb
+{
+    color:rgb(46, 204, 113);
+}
+
+.rgba
+{
+    color:rgba(231, 76, 60, 0.5);
+}
+
+.hsl
+{
+    color:hsl(280, 80%, 50%);
+}
+
+.hsla
+{
+    color:hsla(40,100%,50%,0.6);   
+}
+
+.current
+{
+    color: teal;
+    border: 2px solid currentColor;
+}
+
+.opacity-box
+{
+    width: 220px;
+    padding: 20px;
+    background: blue;
+    color: white;
+    opacity: 0.5;
+}
