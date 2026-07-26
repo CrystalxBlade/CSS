@@ -5,4 +5,42 @@ body
 }
 .family
 {
+    font-family: "Poppins", sans-serif;
+}
+.size
+{
+    font-size: 32px;
+}
+.weight
+{
+    font-weight: bold;
+}
+.style
+{
+    font-style: italic;
+}
+.transform
+{
+    text-transform: uppercase;
+}
+.align
+{
+    text-align: center;
+}
+.spacing
+{
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.line-height
+{
+    line-height: 2;
+}
+.decoration
+{
+    text-decoration: underline;
+}
+.shadow
+{
+    text-shadow: 3px 3px 5px gray;
 }
