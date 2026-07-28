@@ -1,8 +1,17 @@
-div
+body
 {
-    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
 }
-.hc
+
+.box
 {
-    color: red;
+    font-family: cursive;
+    text-align: center;
+    font-size: 6em;
+    background-color: aquamarine;
+    width: 6em;
+    height: 4em;
+    border-color: brown;
+    border-width: 100px;
 }

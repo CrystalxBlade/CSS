@@ -40,6 +40,10 @@ body
 {
     text-decoration: underline;
 }
+.line-through
+{
+    text-decoration: line-through;
+}
 .shadow
 {
     text-shadow: 3px 3px 5px gray;

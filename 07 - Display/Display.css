@@ -1,0 +1,54 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+.block
+{
+    display: block;
+    background: #74b9ff;
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.inline
+{
+    display: inline;
+    background: #55efc4;
+    padding: 10px;
+}
+.inline-block
+{
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+    margin: 10px;
+    background: #fdcb6e;
+}
+.hidden
+{
+    display: none;
+}
+.contents
+{
+    display: contents;
+}
+.contents p
+{
+    background: #fab1a0;
+    padding: 10px;
+    margin: 5px 0;
+}
+.flow-root
+{
+    display: flow-root;
+    border: 2px solid #333;
+    padding: 15px;
+}
+.flow-root img
+{
+    float: left;
+    margin-right: 15px;
+}
+
+
