@@ -1,0 +1,60 @@
+body
+{
+    font-family:Arial, sans-serif;
+    margin:40px;
+}
+img
+{
+    margin:10px;
+}
+.float
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.box
+{
+    width: 120px;
+    height: 120px;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+}
+.left-box
+{
+    float:left;
+    background:#3498db;
+}
+.right-box
+{
+    float:right;
+    background:#e74c3c;
+}
+.clear-box
+{
+    clear:both;
+    background:#2ecc71;
+    padding:20px;
+    margin-top:20px;
+}
+.container{
+    border:2px solid black;
+    padding:10px;
+}
+.container::after
+{
+    content:"";
+    display:block;
+    clear:both;
+}
+.small-box
+{
+    width:120px;
+    height:120px;
+    background:#9b59b6;
+    float:left;
+    margin-right:10px;
+}
