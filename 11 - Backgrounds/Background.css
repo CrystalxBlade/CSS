@@ -1,0 +1,61 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin:40px;
+}
+
+.box
+{
+    width:500px;
+    height:220px;
+    border:2px solid black;
+    margin-bottom:30px;
+}
+.bg-color
+{
+    background: skyblue;
+}
+.bg-image
+{
+    background-image: url("Images/1.jpg");
+}
+.bg-repeat
+{
+    background-image: url("Images/2.jpg");
+    background-repeat: repeat-x;
+}
+.bg-position
+{
+    background-image: url("Images/3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bg-size
+{
+    background-image: url("Images/4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.attachment
+{
+    height: 400px;
+    background-image: url("Images/5.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 30px;
+}
+.multiple-bg
+{
+    background-image: 
+    url("Images/gold\ 2.jpg"),
+    url("Images/samurai.jpg");
+
+    background-repeat: 
+    repeat,
+    no-repeat;
+
+    background-size: 
+    auto,
+    cover;
+}
