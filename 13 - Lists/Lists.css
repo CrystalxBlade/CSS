@@ -1,0 +1,29 @@
+body
+{
+    font-family:Arial, sans-serif;
+    margin:40px;
+}
+.unordered
+{
+    list-style-type: square;
+}
+.ordered
+{
+    list-style-type:upper-roman;
+}
+.inside
+{
+    list-style-position: inside;
+}
+.outside
+{
+    list-style-position:outside;
+}
+.image-list
+{
+    list-style-image:url("Image/bird.jpg");
+}
+.image-list
+{
+    list-style:square inside;
+}
