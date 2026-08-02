@@ -21,7 +21,7 @@ body
 }
 .image-list
 {
-    list-style-image:url("Image/bird.jpg");
+    list-style-image: url("Image/bird.jpg");
 }
 .image-list
 {
