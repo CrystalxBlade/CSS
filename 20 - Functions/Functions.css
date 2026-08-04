@@ -1,0 +1,66 @@
+:root
+{
+    --primary:#3498db;
+}
+body
+{
+    font-family:Arial,sans-serif;
+    margin:40px;
+}
+.box
+{
+    margin: 20px 0;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.rgb
+{
+    background:rgb(255,0,0);
+}
+.rgba
+{
+    background:rgba(0,128,255,.5);
+
+    color:black;
+}
+.hsl
+{
+    background:hsl(120,60%,45%);
+}
+.calc
+{
+    width:calc(100% - 100px);
+
+    background:tomato;
+}
+.min
+{
+    width:min(500px,100%);
+
+    background:purple;
+}
+.max
+{
+    width:max(300px,50%);
+
+    background:teal;
+}
+.clamp
+{
+    font-size:clamp(16px,3vw,32px);
+
+    background:orange;
+}
+.variable
+{
+    background:var(--primary);
+}
+.url
+{
+    background-image:url("Tree.jpg");
+
+    background-size:cover;
+
+    height:150px;
+}
