@@ -1,0 +1,45 @@
+/* Global Variables */
+
+:root
+{
+    --primary-color:#bcdef5;
+    --secondary-color:#2ecc71;
+    --text-color:#333;
+    --background-color:#f1eafa;
+    --border-radius:10px;
+    --padding:15px;
+}
+body
+{
+    font-family: Arial, sans-serif;
+    background: var(--background-color);
+    color: var(--text-color);
+    margin: 40px;
+}
+.primary-btn
+{
+    background: var(--primary-color);
+    color: rgb(82, 75, 75);
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+.secondary-btn
+{
+    background: var(--secondary-color);
+    color: #333;
+    padding: var(--padding);
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    margin-left: 10px;
+}
+.card
+{
+    margin-top: 30px;
+    padding: var(--padding);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius); 
+    background: white;
+}
