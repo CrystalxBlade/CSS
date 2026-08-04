@@ -1,0 +1,42 @@
+body{
+    font-family:Arial, sans-serif;
+    margin:40px;
+}
+
+/* Element */
+
+p{
+    color:blue;
+}
+
+/* Class */
+
+.text{
+    color:orange;
+}
+
+/* ID */
+
+#message{
+    color:red;
+}
+
+/* Combined */
+
+.highlight{
+    color:green;
+}
+
+#special{
+    color:purple;
+}
+
+/* Important */
+
+.important{
+    color:blue !important;
+}
+
+p.important{
+    color:red;
+}
