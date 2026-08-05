@@ -3,20 +3,41 @@
     margin: 0;
     padding: 0;
 }
-
-#nature
+.container
+{
+    height: 500px;
+    width: 70%;
+    border: 5px solid rgb(160, 162, 241);
+    position: relative;
+    top: 200px;
+    left: 200px;
+    display: flex;
+}
+.box
 {
     height: 200px;
     width: 200px;
-    border: 2px solid rgb(171, 236, 171);
-    position: fixed;
-    left: 89%;
-    background: lightskyblue;
-    background-image: url();
+    border: 5px solid rgb(0, 0, 0);
+    display: inline-block;
+    text-align: center;
 }
-.border
+.one
 {
-    height: 900px;
-    width: 200px;
-    border: 2px solid lightcoral;
+    background: rgb(238, 139, 159);
+}
+.two
+{
+    background: rgb(143, 205, 247);
+}
+.three
+{
+    background: rgb(240, 198, 150);
+}
+.four
+{
+    background: rgb(243, 239, 185);
+}
+.five
+{
+    background: rgb(176, 240, 176);
 }

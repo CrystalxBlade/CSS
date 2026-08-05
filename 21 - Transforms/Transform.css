@@ -1,0 +1,67 @@
+body
+{
+    font-family:Arial,sans-serif;
+
+    margin:40px;
+}
+.box
+{
+    width:220px;
+
+    padding:25px;
+
+    margin:60px 0;
+
+    background:royalblue;
+
+    color:white;
+
+    text-align:center;
+}
+.translate
+{
+    transform:translate(70px, 20px);
+}
+.rotate
+{
+    transform: rotate(15deg);
+}
+.scale
+{
+    transform: scale(1.2);
+}
+.skew
+{
+    transform: skew(15deg);
+}
+.matrix
+{
+    transform:matrix(1,0.3,0.3,1,20,0);
+}
+.multiple
+{
+    transform:
+        translateX(30px)
+        rotate(10deg)
+        scale(1.1);
+}
+.origin
+{
+    transform-origin: left top;
+    transform:rotate(20deg);
+}
+.rotate3d
+{
+    transform:
+    perspective(400px)
+    rotateX(45deg);
+}
+.rotatey
+{
+    transform:perspective(400px)
+    rotateY(45deg);
+}
+.rotatez
+{
+    transform:rotateZ(45deg);
+}
