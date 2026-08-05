@@ -6,12 +6,13 @@
 .container
 {
     height: 500px;
-    width: 70%;
+    width: 60%;
     border: 5px solid rgb(160, 162, 241);
     position: relative;
     top: 200px;
     left: 200px;
     display: flex;
+    justify-content: center;
 }
 .box
 {
@@ -24,6 +25,7 @@
 .one
 {
     background: rgb(238, 139, 159);
+    flex-shrink: 1;
 }
 .two
 {
@@ -36,8 +38,10 @@
 .four
 {
     background: rgb(243, 239, 185);
+    flex-shrink: 2;
 }
 .five
 {
     background: rgb(176, 240, 176);
+    flex-grow: 2;
 }

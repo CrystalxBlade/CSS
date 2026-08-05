@@ -30,11 +30,41 @@ button:hover
 {
     width:350px;
 }
-.transform.box:hover
+.transform-box:hover
 {
-    transform:scale(1.2);
+    transform:scale(2);
 }
 .opacity-box:hover
 {
     opacity: .3;
+}
+.multi-box:hover
+{
+    background: tomato;
+    transform: rotate(10deg);
+    border-radius: 20px;
+}
+.timing:hover
+{
+    transform: translate(300px);
+}
+.linear
+{
+    transition-timing-function: linear;
+}
+.ease
+{
+    transition-timing-function: ease;
+}
+.ease-in
+{
+    transition-timing-function: ease-in;
+}
+.ease-out
+{
+    transition-timing-function: ease-out;   
+}
+.ease-in-out
+{
+    transition-timing-function: ease-in-out;
 }
