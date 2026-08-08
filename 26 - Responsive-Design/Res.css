@@ -11,4 +11,34 @@ body
 .container
 {
     display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.card
+{
+    background: royalblue;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Tablet */
+
+@media (max-width:768px)
+{
+    .container
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) 
+{
+    .container
+    {
+        grid-template-columns: 1fr;
+    }    
 }
