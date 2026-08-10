@@ -1,0 +1,62 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    font-family:Arial,sans-serif;
+    padding:40px;
+}
+.box
+{
+    padding:40px;
+    margin-top:30px;
+    background:royalblue;
+    color:white;
+    text-align:center;
+}
+.mobile, .tablet
+{
+    display:none;
+}
+.desktop
+{
+    display:block;
+}
+@media (max-width:1024px)
+{
+
+    .box
+    {
+        background:orange;
+    }
+
+    .desktop
+    {
+        display:none;
+    }
+
+    .tablet
+    {
+        display:block;
+    }
+}
+@media (max-width:600px){
+
+    .box
+    {
+        background:crimson;
+    }
+
+    .tablet
+    {
+        display:none;
+    }
+
+    .mobile
+    {
+        display:block;
+    }
+}
