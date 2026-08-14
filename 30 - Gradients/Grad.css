@@ -1,0 +1,83 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body
+{
+    min-height:100vh;
+
+    padding:40px;
+
+    font-family:Arial,sans-serif;
+}
+.gradient-container
+{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+.box
+{
+    min-height:200px;
+
+    display:grid;
+
+    place-items:center;
+
+    border-radius:15px;
+
+    color:white;
+
+    font-size:20px;
+
+    font-weight:bold;
+}
+.linear
+{
+    background:
+    linear-gradient(
+        90deg,
+        red,
+        blue
+    );
+}
+.radial
+{
+    background:
+    radial-gradient(
+        circle,
+        yellow,
+        orange,
+        red
+    );
+}
+.conic
+{
+    background:
+    conic-gradient(
+        red,
+        yellow,
+        lime,
+        cyan,
+        blue,
+        magenta,
+        red
+    );
+}
+.multiple
+{
+    background:
+    linear-gradient(
+        rgba(0,0,0,.4),
+        rgba(0,0,0,.4)
+    ),
+    linear-gradient(
+        135deg,
+        purple,
+        orange
+    );
+}
