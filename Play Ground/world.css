@@ -1,0 +1,22 @@
+:root
+{
+    --primary-color:#5186f8;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 1em;
+}
+
+
+.item
+{
+    padding: 2em;
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border: 8px;
+    font-size: 2rem;
+}
